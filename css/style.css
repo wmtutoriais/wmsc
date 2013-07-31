@@ -1,0 +1,99 @@
+/*
+ * RESET
+ */
+*{
+	border: none;
+	margin: 0px;
+	outline: none;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+ul, ol{
+	list-style-type: none;
+}
+img{
+	border: none;
+}
+
+/*
+ *	HEAD
+ */
+header.head{
+	background: #333;
+	color: #fff;
+	padding: 10px 0px;
+	text-align: center;
+}
+header.head h1{
+	font-size: 26px;
+}
+
+/*
+ * MAIN
+ */
+section.main{
+	margin: 0px auto;
+	overflow: hidden;
+	width: 960px;
+}
+/* menu */
+nav.menu{
+	background: #e7e7e7;
+	float: left;
+	margin: 10px 0px;
+	width: 160px;
+	padding: 10px;
+}
+nav.menu a{
+	color: #444;
+	display: block;
+	font-size: 16px;
+	height: 25px;
+	line-height: 25px;
+	padding: 0px 0px 0px 10px;
+}
+nav.menu a:hover{
+	background: #ddd;
+}
+nav.menu li{
+	margin-bottom: 5px;
+}
+
+/* content */
+section.content{
+	float: right;
+	padding: 10px;
+	width: 760px;
+}
+section.content article > p,
+section.content article > div{
+	margin-bottom: 15px;
+}
+
+section.content article div.opt > div{
+	padding: 5px;
+	background: #e2e2e2;
+	margin-bottom: 25px;
+}
+section.content article div.code{
+	margin-bottom: 25px;
+}
+/*
+ *	FOOTER
+ */
+footer.foot{
+	border-top:solid 1px #444;
+	font-size: 12px;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+}
+
+.syntaxhighlighter .toolbar{
+	display: none !important;
+}

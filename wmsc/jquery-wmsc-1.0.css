@@ -1,0 +1,98 @@
+/*
+ * HORIZONTAL	
+ */
+#wmsc_horizontal{
+	margin-bottom: 50px;
+}
+#wmsc_horizontal > div.wmsc_full{
+	border: 1px solid #333;
+	margin: 20px auto;
+}
+/* bullets */
+#wmsc_horizontal div.wmsc_bullets{
+	bottom: 5px;
+	right: 2px;
+}
+#wmsc_horizontal div.wmsc_bullets > span{
+	background: #fff;
+	border: solid #ffffff 1px;
+	cursor: pointer;
+	display: block;
+	height: 12px;
+	width: 12px;
+}
+#wmsc_horizontal div.wmsc_bullets > span.wmsc_active{
+	border: solid #ff00ff 1px;
+}
+/* next prev */
+#wmsc_horizontal div.wmsc_pag > div{
+	background: url(wmsc-img/pag.jpg) no-repeat;
+	cursor: pointer;
+	height: 62px;
+	top: 90px;
+	width: 62px;
+}
+#wmsc_horizontal div.wmsc_pag div.wmsc_prev{
+	background-position: -2px -73px;
+	left: 10px;
+}
+#wmsc_horizontal div.wmsc_pag div.wmsc_next{
+	background-position: -77px -73px;
+	right: 10px; 
+}
+#wmsc_horizontal div.wmsc_pag div.wmsc_prev:hover{
+	background-position: -2px -3px;
+}
+#wmsc_horizontal div.wmsc_pag div.wmsc_next:hover{
+	background-position: -77px -3px;
+}
+
+/*
+ * VERTICAL	
+ */
+#wmsc_vertical{
+	margin: 0px auto;
+	width: 600px;
+}
+#wmsc_vertical > div.wmsc_full{
+	border: 1px solid #333;
+	margin: 20px auto;
+}
+/* bullets */
+#wmsc_vertical div.wmsc_bullets{
+	bottom: 5px;
+	right: 2px;
+}
+#wmsc_vertical div.wmsc_bullets > span{
+	background: #fff;
+	border: solid #ffffff 1px;
+	cursor: pointer;
+	display: block;
+	height: 12px;
+	width: 12px;
+}
+#wmsc_vertical div.wmsc_bullets > span.wmsc_active{
+	border: solid #ff00ff 1px;
+}
+/* next prev */
+#wmsc_vertical div.wmsc_pag > div{
+	background: url(wmsc-img/pag_vertical.jpg) no-repeat;
+	cursor: pointer;
+	height: 62px;
+	top: 220px;
+	width: 62px;
+}
+#wmsc_vertical div.wmsc_pag div.wmsc_prev{
+	background-position: -2px -2px;
+	left: 10px;
+}
+#wmsc_vertical div.wmsc_pag div.wmsc_next{
+	background-position: -2px -77px;
+	right: 10px; 
+}
+#wmsc_vertical div.wmsc_pag div.wmsc_prev:hover{
+	background-position: -75px -2px;
+}
+#wmsc_vertical div.wmsc_pag div.wmsc_next:hover{
+	background-position: -75px -77px;
+}

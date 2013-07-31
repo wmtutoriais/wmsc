@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html lang="pt_BR">
+<head>
+	<meta charset = "utf-8" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="wmsc/jquery-wmsc-1.0.css" />
+
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script type="text/javascript" src="wmsc/jquery-wmsc-min-1.0.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// HORIZONTAL
+			$('#wmsc_horizontal').wmsc({
+				'draggable': true,
+				'bullets':{
+					'num_bullets':false
+				},
+				'item' : {
+	                'h':250,
+	                'w':400
+	            },
+	            'pag':{
+	                'labels':{
+	                    'p':'',
+	                    'n':''
+	                }
+	            },
+	            'speed'  : 600,
+	            'visible':2
+			});
+
+			// VERTICAL
+			$('#wmsc_vertical').wmsc({
+				'draggable': true,
+				'bullets':{
+					'num_bullets':false
+				},
+				'item' : {
+	                'h':250,
+	                'w':400
+	            },
+	            'pag':{
+	                'labels':{
+	                    'p':'',
+	                    'n':''
+	                }
+	            },
+	            'speed'  : 600,
+	            'vertical': true,
+	            'visible':2
+			});
+		});
+	</script>
+	<!--[if lt IE 9]>
+	     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<title>WM Simple Carousel</title>
+</head>
+
+<body>
+	<header class='head' >
+		<h1>WM Simple Carousel</h1>
+	</header><!-- header.head -->
+
+	<section class='main' >
+		<div class='wrap' >
+
+			<div id='wmsc_horizontal' >
+				<div class='wmsc_full'>
+					<div>
+						<div>
+							<img src='img/b1.jpg' alt='' />
+						</div>
+						<div>
+							<img src='img/b2.jpg' alt='' />
+						</div>
+						<div>
+							<img src='img/b3.jpg' alt='' />
+						</div>
+						<div>
+							<img src='img/b4.jpg' alt='' />
+						</div>
+						<div>
+							<img src='img/b5.jpg' alt='' />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id='wmsc_vertical' >
+				<div class='wmsc_full'>
+					<div>
+						<div>
+							<img src='img/b1.jpg' alt='' />
+						</div>
+						<div>
+							<img src='img/b2.jpg' alt='' />
+						</div>
+						<div>
+							<img src='img/b3.jpg' alt='' />
+						</div>
+						<div>
+							<img src='img/b4.jpg' alt='' />
+						</div>
+						<div>
+							<img src='img/b5.jpg' alt='' />
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section><!-- section.main -->
+
+	<footer class='foot' >
+		<p>
+			Desenvolvido por <strong>Welison Menezes</strong> || Contato: <em>welisonmenezes@gmail.com</em>
+		</p>
+	</footer><!-- footer.foot -->
+</body>
+</html>
